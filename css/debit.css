@@ -1,0 +1,99 @@
+ /*--------- Small devices (landscape phones, 576px and up) ----------*/
+ @media screen{
+      /*---------- navigtation -------------*/
+      nav{ 
+           background-color: transparent; 
+           text-align: right;
+           padding-right: 30px;
+           padding-top: 0px;
+           padding-bottom: 0px;
+           margin-top: 0px;
+           color: rgb(233, 6, 55);
+           word-spacing: 10px;   
+      }
+      .navbar a{ 
+           color: rgb(233, 6, 55);
+           font-size: 13px;
+           font-weight: normal;
+           font-family: Georgia, 'Times New Roman', Times, serif;
+           padding: 5px 20px;
+           border: 1px solid rgb(204, 204, 245);
+           border-radius: 20px;
+           transition: 0.6s ease;
+      }
+      a:hover{
+           background-color: white;
+           color: black;
+      }
+
+      /*---------- body styling -----------*/
+      body{
+           background-size: cover;
+           background-attachment: scroll;
+      }
+      /*-------------------------*/
+      /*---------- container styling -----------*/
+      .jumbotron{
+           text-align: center;
+           font-size: 20px;
+           font-family: Georgia, 'Times New Roman', Times, serif;
+           color: rgb(255, 255, 255);
+           padding-top: 180px;
+           width: 90%;
+           height: 100%;
+           position: absolute;
+           padding: 20px;
+           top: 60%;
+           left: 50%;
+           bottom: 0%;
+           right: 50%;
+           transform: translate(-50%,-50%);
+           background-color: rgba(0, 0, 0, 0.925);
+           border: groove;
+           border-radius: 25px;
+      } 
+      .jumbotron table{
+           text-align: center;
+           color: rgb(255, 255, 255);
+      }
+      .jumbotron input[type="text"],.jumbotron input[type="number"]{
+           background: none;
+           display: block;
+           margin: 30px auto;
+           text-align: center;
+           border:3px solid whitesmoke;
+           padding:10px 8px;
+           width: 190px;
+           outline: none;
+           color: white;
+           border-radius: 20px;
+           transition: 0.25px;
+      }
+      .jumbotron input[type="text"]:focus,.jumbotron input[type="number"]:focus{
+           width: 195px;
+           border-color: rgb(252, 252, 252);
+      }
+      /*---------- submit & reset button -----------*/
+      .row input[type="button"]{
+           background-color: rgba(0, 0, 0, 0.842);
+           display:inline-table;
+           margin: 40px auto;
+           margin-left: 0px;
+           text-align: center;
+           border:3px solid rgb(255, 255, 255);
+           padding:10px 20px;
+           width: 120px;
+           outline: none;
+           color: rgb(255, 255, 255);
+           border-radius: 24px;
+           transition: 0.25px;
+           cursor:pointer;
+      }
+      .container .cancelbtn{
+           color: rgb(233, 6, 55);
+           font-size: 20px;
+           font-weight: normal;
+           font-family: Georgia, 'Times New Roman', Times, serif;
+      }
+      /*-----------------------*/
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>credit</title>
+        <!---------- stylesheet source ---------->
+        <link rel="stylesheet" href="css\debit.css">
+        <!---------------------->
+        <!---------- javascript source ---------->
+        <script type="text/javascript" src="transaction.js"></script>
+        <!--------------------->
+</head>
+<!---------- body section ---------->
+<body style="background-image: url(bnk2.jpg)">
+    <!------------ navigation bar ------------->
+    <nav class="navbar">
+        <a href="userhome.html">USERHOME</a>
+    </nav>
+    <!-------------------->
+    <!---------- credits container ---------->
+    <div class="container">
+    <div class="jumbotron">
+        <!---------- header1 ---------->
+        <h3>HELLO USER!</h3>
+        <!-------------------->
+        <div class="row">
+        <!---------- first column ---------->
+        <div class="col"><br>
+            <!---------- header2 ---------->
+            <h3>DEPOSIT YOUR MONEY</h3>
+            <!-------------------->
+            <!---------- table for fields ---------->
+            <table>
+                <!---------- account number ---------->
+                <tr>
+                 <td>ACCOUNT NO</td>
+                 <td><input type="text" id="acno"></td>
+                </tr>
+                <!--------------------->
+                <!---------- pin number ---------->
+                <tr>
+                 <td>PIN</td>
+                 <td><input type="number" id="pin"></td>
+                </tr>
+                <!--------------------->
+                <!---------- amount to credit ---------->
+                <tr>
+                 <td>AMOUNT</td>
+                 <td><input type="number" id="amt"></td>
+                </tr>
+                <!-------------------->
+            </table>
+            <!---------- end of table fields ---------->
+        </div>
+        <!---------- end of column ---------->
+            <!---------- submit & reset button ---------->
+            <input type="button" onclick="Bank.deposit()" value="SUBMIT"><br><br>
+            <a href="credit.html" class="cancelbtn">RESET</a>
+            <!-------------------->
+        </div>
+    </div>
+    </div>
+    <!---------- end of credit container ---------->
+</body>
+<!---------- end of body section  ---------->
+</html>

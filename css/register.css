@@ -1,0 +1,125 @@
+/*----------- devices views (landscape phones, 576px and up) ------------*/
+@media screen{
+/*----------- header styling ------------*/
+header{
+    background-color: rgb(0, 0, 39);
+    color: rgb(233, 6, 55);
+    font-size: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    border: 1px solid black;
+}
+/*-------------------------*/
+/*---------- navigation & anchor styling ----------*/
+nav { 
+    background-color: rgb(0, 0, 39); 
+    text-align: right;
+    padding-right: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: 0.1%;
+    color: rgb(233, 6, 55);
+    word-spacing: 10px;
+}
+a { 
+    color: rgb(233, 6, 55);
+    font-size: 13px;
+    font-weight: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 5px 20px;
+    border: 1px solid rgb(204, 204, 245);
+    border-radius: 20px;
+    transition: 0.6s ease;
+}
+a:hover{
+     background-color: white;
+     color: black;
+} 
+/*-------------------------*/
+/*------------ header-------------*/
+h1{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 50px;
+}
+.page-header{
+    text-align: left;
+    font-display: block;
+}
+/*-------------------------*/
+/*----------- container --------------*/
+.container{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+/*-------------------------*/
+/*--------- form styles ---------*/
+.form2{
+    width: 80%;
+    height: 200%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: absolute;
+    top: 180%;
+    left: 50%;
+    bottom: 0%;
+    right: 50%;
+    transform: translate(-50%,-50%);
+    background-color:unset;
+    text-align: center;
+}
+.form2 input[type="text"],.form2 input[type="number"],.form2 input[type="password"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    font-weight: bold;
+    border:3px solid rgb(0, 0, 0);
+    padding:10px 8px;
+    width: 220px;
+    outline: none;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    transition: 0.25px;
+}
+.form2 input[type="text"]:focus,.form2 input[type="number"]:focus,.form2 input[type="password"]:focus{
+    width: 190px;
+    border-color: rgb(252, 252, 252);
+}
+.custom-select{
+    border: 0;
+    background:none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border:3px solid rgb(0, 0, 0);
+    padding:10px 8px;
+    width: 240px;
+    outline: none;
+    color: rgb(54, 54, 54);
+    border-radius: 20px;
+    transition: 0.25px;
+}
+.registerbtn{
+    border: 0;
+    background-color: rgba(0, 0, 0, 0.842);
+    display:inline-table;
+    margin: 20px auto;
+    text-align: center;
+    border:3px solid rgb(0, 0, 0);
+    padding:14px 35px;
+    width: 150px;
+    outline: none;
+    color: rgb(255, 255, 255);
+    border-radius: 24px;
+    transition: 0.25px;
+    cursor:pointer;
+}
+}
+/*-------------------------*/

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>debit</title>
+        <!---------- stylesheet source ---------->
+        <link rel="stylesheet" href="css\debit.css">
+        <!---------------------->
+        <!---------- javascript section ---------->
+        <script type="text/javascript" src="transaction.js"></script>
+        <!---------------------->
+</head>
+<!---------- body section ---------->
+<body style="background-image: url(bnk2.jpg)">
+     <!--------- navigation bar ---------->
+     <nav class="navbar">
+        <a href="userhome.html">USERHOME</a>
+    </nav>
+    <!-------------------->
+    <!---------- debits container ---------->
+    <div class="container">
+    <div class="jumbotron">
+        <!---------- header1 ---------->
+        <h3>HELLO USER!</h3>
+        <!--------------------->
+        <div class="row">
+        <!---------- first column ---------->   
+        <div class="col"><br>
+            <!---------- header2 ---------->
+            <h3>WITHDRAW YOUR MONEY</h3>
+            <!---------------------->
+            <!---------- table for fields ---------->
+            <table>
+                <!---------- account number ---------->
+                <tr>
+                 <td>ACCOUNT NO</td>
+                 <td><input type="text" id="wacno"></td>
+                </tr>
+                <!-------------------->
+                <!---------- pin number ---------->
+                <tr>
+                 <td>PIN</td>
+                 <td><input type="number" id="wpin"></td>
+                </tr>
+                <!-------------------->
+                <!---------- amount to debit ---------->
+                <tr>
+                 <td>AMOUNT</td>
+                 <td><input type="number" id="wamt"></td>
+                </tr>
+                <!-------------------->
+            </table>
+            <!---------- end of table fields ---------->
+        </div>
+        <!---------- end of column ---------->
+            <!---------- submit & reset button ---------->
+            <input type="button" onclick="Bank.withdraw()" value="SUBMIT"><br><br>
+            <a href="debit.html" class="cancelbtn">RESET</a>
+            <!-------------------->
+        </div>
+    </div>
+    </div>
+    <!---------- end of debit container ---------->
+</body>
+<!---------- end of body section ---------->
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registerpage</title>
+    <!---------- stylesheet source ---------->
+    <link rel="stylesheet" href="css\register.css">
+    <!---------------------->
+</head>
+<!---------- body section ---------->
+<body style=" background-image: url(bnkbuid2.jpg);background-size: 900%;background-attachment: scroll;background-repeat: no-repeat;margin: 0;padding: 0">
+    <!------------- main header ------------->
+    <header>
+        <img src="bnklog.png"  width= "130px" height= "100px">
+        <b>ABC BANK</b>
+    </header>
+    <!----------------------->
+    <!------------- navigation bar -------------->
+    <nav>
+        <a href="index.html">HOME</a> |
+        <a href="login.html">LOGIN</a>
+    </nav>
+    <!----------------------->
+    <!------------- header1 ----------------->
+    <h1>REGISTER</h1><br>
+    <!---------------------->
+    <!---------- form registration ---------->
+    <div class="container">
+    <form action="" class="form2">
+          <!----------- header2 ------------>
+          <div class="page-header">
+            <h3>PERSONAL DETAILS</h3><hr>   
+            <!---------------------->  
+          </div><br>
+          <div class="container">
+            <!-------------- name text field ---------------->
+            <label for="name"><b>NAME</b></label><br>
+            <input type="text" placeholder="Enter your name" title="Enter your name" name="name" id="name" required><br><br>
+            <!-------------------->
+            <!-------------- phno field ---------------->
+            <label for="phno"><b>PHONENO</b></label><br>
+            <input type="number" placeholder="Enter phoneno" title="Enter phoneno" name="phno" id="phno" required><br><br>
+            <!-------------------->
+            <!-------------- email field ---------------->
+            <label for="email"><b>EMAIL</b></label><br>
+            <input type="text" placeholder="Enter Email" title="Enter Email" name="email" id="email" required><br><br>
+            <!-------------------->
+            <!-------------- acc type field ---------------->
+            <label for="ac-type"><b>TYPE OF ACCOUNT</b></label><br>
+            <select class="custom-select" style="background: rgba(0, 0, 0, 0.5); color:white; font-weight: 300;">
+              <option>SAVINGS</option>
+              <option>BUSINESS</option>
+              <option>PERSONAL</option>
+            </select>
+          </div><br><br>
+          <!-------------------->
+          <!-------------- address section ---------------->
+          <!---------- header3 ---------->
+          <div class="page-header">
+            <h3>ADDRESS</h3><hr>      
+          </div><br>
+          <!-------------------->
+          <div class="container">
+            <!-------------- address field ---------------->
+            <label for="addrs"><b>ADDRESS</b></label><br>
+            <input type="text" placeholder="Enter your Address" title="Enter your Address" name="addrs" id="addrs" maxlength="300" required><br><br>
+            <!-------------------->
+            <!-------------- pin field ---------------->
+            <label for="pin"><b>PIN</b></label><br>
+            <input type="number" placeholder="Enter your pincode" title="Enter your pincode" name="pin" id="pin" required><br><br>
+            <!-------------------->
+            <!---------- password field ---------->
+            <label for="psw"><b>PASSWORD</b></label><br>
+            <input type="password" placeholder="Enter Password" title="Enter Password" name="psw" id="psw" required><br><br>
+            <!-------------------->
+            <!---------- confirm password ---------->
+            <label for="psw-repeat"><b>CONFIRM PASSWORD</b></label><br>
+            <input type="password" placeholder="Confirm Password" title="Confirm Password" name="psw-rpt" id="psw-rpt" required><br>
+            <!-------------------->
+            <!---------- submit button ---------->
+            <input type="submit" class="registerbtn" value="Register"><br>
+          </div>     
+          <!---------------------------->
+          <!---------- signin link ---------->
+          <div class="container signin">
+          <p>Already have an account? <a href="login.html">Sign in</a></p>
+        </div>
+        <!--------------------->
+      </form>
+    </div> 
+    <!---------- enf of form registration ---------->
+</body>
+<!---------- end of body section ---------->
+</html>

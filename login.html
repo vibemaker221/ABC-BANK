@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loginpage</title>
+    <!-------------- javascript source ---------------->
+    <script type="text/javascript" src="transaction.js"></script>
+    <!--------------------------->
+    <!-------------- stylesheet ---------------->
+    <link rel="stylesheet" href="css\login.css">
+    <!--------------------------->
+</head>
+<!-------------- body section ---------------->
+<body style=" background-image: url(bnkbuid2.jpg);background-size: 300%; background-attachment: scroll;background-repeat: no-repeat;margin: 0;padding: 0">
+    <!-------------------- header ------------------>
+    <header>
+         <img src="bnklog.png"  width= "120px" height= "100px">
+         <b>ABC BANK</b>
+    </header>
+    <!--------------------------->
+    <!-------------- navigation bar ---------------->
+    <nav>
+         <a href="index.html">HOME</a> |
+         <a href="login.html">LOGIN</a>
+    </nav>
+    <!---------------------------> 
+    <!-------------- form container ---------------->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <!-------------- form ---------------->
+                <form action="" method="GET" class="form1" onsubmit="validateform()">
+                     <!------------ heading inside form ------------->
+                     <h1>LOGIN</h1><br>
+                     <!--------------------------->
+                     <!----------- text fields -------------->
+                    <div class="log">
+                          <!-------------- account number field ---------------->
+                          <input type="text" id="acno" name="acno" placeholder="Enter AccountNo" title="Enter your AccountNo" maxlength="30" required><br>
+                          <!---------------------------->
+                          <!-------------- password field ---------------->
+                          <input type="password" id="pwd" name="pwd" min="15" placeholder="Enter Password" title="Enter your password" required><br> 
+                          <!---------------------------->
+                          <!-------------- submit button ---------------->  
+                          <input type="submit" value="LOGIN" onclick="Bank.login()"><br><br>
+                          <!---------------------------->
+                          <!------------ link to registration form ---------->
+                          <b>New User?</b><a href="register.html" title="signup for more!!">REGISTER</a>
+                          <!----------------------------->
+                    </div>
+                    <!-------------- end of text fields ---------------->
+                </form>
+                <!-------------- end of form ---------------->
+            </div>
+        </div>
+    </div> 
+    <!-------------- end of form container ----------------> 
+</body>
+<!-------------- end of body section ---------------->
+</html> 
