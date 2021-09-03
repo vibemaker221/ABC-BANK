@@ -48,6 +48,9 @@ class Bank {
                 alert("Account has been credited");
                 alert(data[accnum].balance);
             }
+            else {
+                alert("Incorrect accountnumber or Pin")
+            }
         }
     }
     // ----------------user withdraw/debit-----------------
@@ -62,6 +65,9 @@ class Bank {
                 data[wacno].balance -= wamt;
                 alert('Account has been debited');
                 alert(data[wacno].balance);
+            }
+            else {
+                alert("Incorrect accountnumber or Pin")
             }
         }
         else {
