@@ -49,7 +49,7 @@ a:hover{
 /*------------ body styling -------------*/
 body{
      background-repeat: no-repeat; 
-     background-size: 300%;
+     background-size: 400%;
      font-size: 14px;
 }
 /*-------------------------*/
@@ -58,8 +58,8 @@ body{
      text-align: center;
      color: rgb(255, 255, 255);
      padding-top: 180px;
-     width: 60%;
-     height: 50%;
+     width: 80%;
+     height: 80%;
      position: absolute;
      top: 70%;
      left: 50%;
